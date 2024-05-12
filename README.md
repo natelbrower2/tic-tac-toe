@@ -1,30 +1,25 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a console-based Tic-Tac-Toe game that uses functional programming principles. The game can be started by calling the main:start() function and then the game will prompt the user to provide input based on what game mode they would like to play (single or multi player mode), and what position they would like to go on the tic-tac-toe board. The game will automatically end once any game ending condition have been met.
 
-{Provide a description for the software that you wrote to demonstrate the Erlang language.}
+The purpose for writing this software was for me to learn more about how to program using a functional programming language like Erlang.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=co5UuzpVmZI)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+To develop this software, I used Visual Studio Code, Erlang, Git, and GitHub.
 
-{Describe the programming language that you used and any libraries.}
+I used Erlang as my programming language for this program.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](https://www.erlang.org/doc/reference_manual/expressions#receive)
-* [The main erlang website](http:/www.erlang.org)
+* [The expressions section of the main Erlang website](https://www.erlang.org/doc/reference_manual/expressions#receive)
+* [The main Erlang website](http:/www.erlang.org)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+In the future, I would like to do the following to this program:
+* Utilize randomness for the tic-tac-toe robot
+* Make the computers algorithm more efficient
+* Edit the code to use less case of code blocks

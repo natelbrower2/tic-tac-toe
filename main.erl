@@ -176,8 +176,7 @@ computer_decision(Symbols) ->
     end.
 
 
-computer_decision_helper([], _, _, _, Atom) ->
-    io:format("Failed at ~p~n",[Atom]),
+computer_decision_helper([], _, _, _, _) ->
     fail;
 computer_decision_helper([" "|Rest], Symbols, Character, Position, CheckValue) ->
     TestSymbolList = update_symbols_list(Position, Character, Symbols),
@@ -192,7 +191,7 @@ computer_decision_helper([_|Rest], Symbols, Character, Position, CheckValue) ->
 
 pick_available_spot([], _) ->
     io:format("Something went wrong"),
-    8; % No spot was available
+    fail; % No spot was available
 pick_available_spot([" "|_], Position) ->
     Position;
 pick_available_spot([_|Rest], Position) ->
